@@ -1006,7 +1006,6 @@ ul {
   padding-bottom: var(--main-padding-bottom);
   padding-top: var(--main-padding-top);
   background-color: var(--section-background);
-  
 }
 .our-skills .container .box{
   display: flex;
@@ -1054,6 +1053,8 @@ ul {
 .work-steps{
   padding-bottom: var(--main-padding-bottom);
   padding-top: var(--main-padding-top);
+  
+
   position: relative;
 }
 .work-steps .container{
@@ -1137,7 +1138,6 @@ ul {
   padding-bottom: var(--main-padding-bottom);
   padding-top: var(--main-padding-top);
   background-color: var(--section-background);
-
 }
 .events .container{
   display: flex;
