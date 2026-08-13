@@ -53,7 +53,7 @@ let number = document.querySelectorAll(".stats .number ");
 let started = false;
 let end = false
 window.onscroll = function () {
-  if (window.scrollY >= sectionSkills.offsetTop - 400) {
+  if (window.scrollY >= sectionSkills.offsetTop - 500) {
     progressSpans.forEach((span) => {
       span.style.width = span.dataset.width
     })
@@ -62,7 +62,7 @@ window.onscroll = function () {
     }
     started = true
   }
-  if (window.scrollY >= sectionStats.offsetTop - 500) {
+  if (window.scrollY >= sectionStats.offsetTop - 700) {
     if (!end) {
       number.forEach((nu) => startCount(nu))
     }
